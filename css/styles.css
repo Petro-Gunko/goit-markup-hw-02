@@ -114,7 +114,7 @@ body {
 /* our team */
 
 .team-section {
-  background: #f4f4fd;
+  background: #FFFFFF;
 }
 
 .title-team {
@@ -152,6 +152,10 @@ body {
 
 .portfolio-section {
   background-color: #ffffff;
+}
+
+.portfolio-list{
+  background-color: #FFFFFF;
 }
 
 .title-portfolio {
