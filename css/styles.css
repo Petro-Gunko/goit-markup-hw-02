@@ -1,6 +1,6 @@
 /* Body */
 body {
-  font-family: Roboto sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
   font-family: Raleway, Helvetica Neue, Verdana, Tahoma, sans-serif;
@@ -15,6 +15,7 @@ body {
 /* navigation bar */
 
 .navig {
+  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -24,13 +25,26 @@ body {
 
 .logo {
   color: #4d5ae5;
-  font-family: Raleway sans-serif;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.studio{
+  color: #2e2f42;
+}
+
+.link-main{
+  color: #2e2f42;
+}
+.link-main .link:hover{
+  color: #404bbf;
+}
+.link-main .link:focus{
+  color: #404bbf;
 }
 
 /* contacts */
@@ -41,6 +55,17 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+}
+
+.contacts-link{
+  color: #2e2f42;
+  line-height: 1.5;
+}
+.contacts-link .link:hover{
+  color: #404bbf;
+}
+.contacts-link .link:focus{
+  color: #404bbf;
 }
 
 /* section-1 */
@@ -62,9 +87,6 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-  padding: 16px 32px;
-  gap: 10px;
-  border-radius: 4px;
   background: #4d5ae5;
 }
 
@@ -80,20 +102,17 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  width: 264px;
 }
 
 .text {
   color: #2e2f42;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-  width: 264px;
 }
 
 /* our team */
 
 .team-section {
-  width: 1440px;
   background: #f4f4fd;
 }
 
@@ -126,7 +145,6 @@ body {
 /* portfolio section */
 
 .portfolio-section {
-  width: 1440px;
   background-color: #ffffff;
 }
 
@@ -142,18 +160,15 @@ body {
 /* footer */
 
 .footer-style {
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
   background: #2e2f42;
 }
 
 .studio-footer {
-    color: #4d5ae5;
+  color: #4d5ae5;
 }
 
 .text-footer {
-  width: 264px;
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
