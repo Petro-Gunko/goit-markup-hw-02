@@ -1,6 +1,6 @@
 /* Body */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background: #fff;
   font-family: Raleway, Helvetica Neue, Verdana, Tahoma, sans-serif;
@@ -25,7 +25,7 @@ body {
 
 .logo {
   color: #4d5ae5;
-  font-family: "Raleway" sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
