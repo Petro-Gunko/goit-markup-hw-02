@@ -36,9 +36,6 @@ body {
   color: #2e2f42;
 }
 
-.link-main .link{
-  color: #2e2f42;
-}
 .link-main .link:hover{
   color: #404bbf;
 }
@@ -56,10 +53,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contacts-link .link{
-  color: #2e2f42;
-  line-height: 1.5;
-}
 .contacts-link .link:hover{
   color: #404bbf;
 }
@@ -87,6 +80,14 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   background: #4d5ae5;
+}
+
+.modal-btn:hover {
+  background-color: #404BBF
+}
+
+.modal-btn:focus {
+  background-color: #404BBF
 }
 
 /* section-2 */
