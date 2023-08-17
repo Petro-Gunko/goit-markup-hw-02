@@ -116,6 +116,7 @@ body {
   background: #F4F4FD;
 }
 
+
 .title-team {
   color: #2e2f42;
   text-align: center;
@@ -127,7 +128,11 @@ body {
 }
 
 .team-list{
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+}
+
+.team-link-list{
+  background-color: #FFFFFF;
 }
 
 .names-our-team {
