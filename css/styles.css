@@ -35,7 +35,7 @@ body {
 .studio {
   color: #2e2f42;
 }
-.link-main {
+.link-main .link{
   color: #2e2f42;
 }
 .link:hover {
@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contacts-link {
+.contacts-link .link{
   color: #434455;
 }
 
@@ -98,9 +98,6 @@ body {
 
 /* section-2 */
 
-.Advantages {
-  width: 1440px;
-}
 
 .text-title {
   color: #2e2f42;
