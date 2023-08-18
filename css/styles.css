@@ -5,6 +5,14 @@ body {
   background: #fff;
 }
 
+ul, ol {
+	list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* section-title */
 
 .first-block {
@@ -31,6 +39,7 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .studio {
   color: #2e2f42;
